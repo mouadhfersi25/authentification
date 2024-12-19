@@ -1,0 +1,18 @@
+<div class="container">
+	<h2>Log In</h2>
+	<form class="form" (ngSubmit)="login(loginForm.value)" #loginForm="ngForm">
+	  <div class="form__field">
+		<input type="text" class="form__input" placeholder="Email" name="email" ngModel required>
+	  </div>
+	  <div class="form__field">
+		<input type="password" class="form__input" placeholder="Password" name="password" ngModel required>
+	  </div>
+	  <button class="form__button" type="submit">Log In</button>
+	</form>
+	<div class="social">
+	  <a href="#" class="social__icon fab fa-instagram"></a>
+	  <a href="#" class="social__icon fab fa-facebook"></a>
+	  <a href="#" class="social__icon fab fa-twitter"></a>
+	</div>
+  </div>
+  
